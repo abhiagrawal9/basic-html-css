@@ -1,0 +1,86 @@
+/* Element selectors */
+
+header h1 {
+  color: yellow;
+  background-color: tomato;
+  width: fit-content;
+}
+
+p {
+  color: chartreuse;
+}
+
+h3 {
+  color: black;
+  width: fit-content;
+}
+
+/* Group element selection */
+
+body {
+  background-color: black;
+  color: aqua;
+}
+
+h1,
+h2 {
+  color: yellow;
+}
+
+/* ID */
+
+#footer {
+  color: aqua;
+}
+
+/* Class */
+
+.red {
+  background-color: rgb(255, 0, 0);
+}
+
+.green {
+  background-color: rgb(0, 255, 0);
+}
+
+/* DIV & SPAN */
+
+div h4,
+p {
+  background-color: honeydew;
+  color: black;
+}
+
+span {
+  text-transform: uppercase;
+  color: orange;
+}
+
+/* INHERITANCE */
+
+body {
+  background-color: black;
+  color: aqua;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+  font-size: large;
+}
+
+/* LAST RULE , SPECIFICITY & UNIVERSAL SELECTOR */
+
+section p {
+  color: yellow;
+  background: none;
+}
+
+section p {
+  color: red;
+  background: none;
+}
+
+* {
+  color: teal;
+}
